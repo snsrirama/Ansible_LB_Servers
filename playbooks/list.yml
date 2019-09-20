@@ -1,0 +1,14 @@
+---
+- hosts: localhost
+  tasks:
+  - name: check the ping
+    ping:
+ #   command: ping
+ #   ping:
+
+- hosts: all
+  tasks:
+  - name: list files in folder
+    command: ls
+...
+
